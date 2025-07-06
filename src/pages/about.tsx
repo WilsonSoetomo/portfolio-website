@@ -3,10 +3,10 @@ import Head from 'next/head'
 
 export default function About() {
   const skills = {
-    'Frontend': ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'D3.js'],
-    'Backend': ['Python', 'Flask', 'Go', 'Node.js', 'Django', 'Express.js', 'gRPC'],
-    'Data & Cloud': ['DuckDB', 'SQL', 'MongoDB', 'Kubernetes', 'Docker', 'AWS'],
-    'Tools & Others': ['Git', 'Slack Bots', 'Matplotlib', 'Stripe API', 'SMOTE', 'Airflow']
+    'Frontend': ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+    'Backend': ['Node.js', 'Python', 'Flask', 'Express', 'gRPC'],
+    'Data & Cloud': ['DuckDB', 'PostgreSQL', 'Kubernetes', 'Docker', 'AWS'],
+    'Tools & Others': ['Git', 'Linux', 'Apache Airflow', 'Prometheus', 'Helm']
   }
 
   return (
@@ -28,7 +28,7 @@ export default function About() {
               About Me
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Software Developer passionate about scalable systems, cloud tech, and applied ML.
+              Software Developer passionate about building scalable solutions
             </p>
           </motion.div>
 
@@ -44,16 +44,20 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
                 <p>
-                  I'm a Computer Science student at UC Irvine and a software developer intern at IBM. 
-                  My work spans backend systems, machine learning, and cloud-native applications.
+                  I&apos;m a software developer currently interning at IBM, where I work on cloud-native 
+                  solutions and data engineering projects. My passion lies in building scalable, 
+                  efficient applications that solve real-world problems.
                 </p>
                 <p>
-                  At IBM, I’ve helped improve enterprise auditing systems across 3 secure environments 
-                  using Go, gRPC, and Kubernetes. I also built microservices that support GDPR and HIPAA compliance.
+                  I specialize in full-stack development with a focus on modern technologies like 
+                  React, TypeScript, Python, and cloud-native tools. My experience includes working 
+                  with DuckDB for analytical workloads, Kubernetes for container orchestration, 
+                  and building microservices architectures.
                 </p>
                 <p>
-                  Outside of internships, I’ve built full-stack apps for stock prediction, diabetes diagnosis, and car price estimation. 
-                  I enjoy teaching others—having led C++ and Python courses—and love solving real-world problems with elegant code.
+                  When I&apos;m not coding, you can find me exploring new technologies, contributing to 
+                  open-source projects, or sharing knowledge with the developer community. I believe 
+                  in writing clean, maintainable code and following best practices in software engineering.
                 </p>
               </div>
             </motion.div>
@@ -100,53 +104,44 @@ export default function About() {
               Experience
             </h2>
             <div className="space-y-8">
-
-              {/* IBM */}
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                       Software Developer Intern
                     </h3>
-                    <p className="text-blue-600 dark:text-blue-400 font-medium">IBM</p>
+                    <p className="text-blue-600 dark:text-blue-400 font-medium">
+                      IBM
+                    </p>
                   </div>
-                  <span className="text-sm text-gray-500 dark:text-gray-400">Jun 2025 – Sep 2025</span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">
+                    2024 - Present
+                  </span>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Developed scalable backend services using Go and gRPC, improving API performance and enterprise logging across secure environments.
+                  Working on cloud-native solutions and data engineering projects. 
+                  Developing tools for DuckDB analytics, Kubernetes orchestration, 
+                  and building scalable microservices architectures.
                 </p>
               </div>
 
-              {/* NeverEnding */}
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      Software Engineer Intern
+                      Full-Stack Developer
                     </h3>
-                    <p className="text-blue-600 dark:text-blue-400 font-medium">NeverEnding, Inc.</p>
+                    <p className="text-blue-600 dark:text-blue-400 font-medium">
+                      Freelance
+                    </p>
                   </div>
-                  <span className="text-sm text-gray-500 dark:text-gray-400">Jun 2024 – Aug 2024</span>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">
+                    2023 - Present
+                  </span>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Integrated Django-based marketplace with creative tools, implemented payment processing via Stripe & Google Wallet, 
-                  and improved user workflows.
-                </p>
-              </div>
-
-              {/* Coding Minds */}
-              <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
-                <div className="flex justify-between items-start mb-4">
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      Lead Instructor
-                    </h3>
-                    <p className="text-blue-600 dark:text-blue-400 font-medium">Coding Minds Academy</p>
-                  </div>
-                  <span className="text-sm text-gray-500 dark:text-gray-400">Mar 2023 – Jan 2024</span>
-                </div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Taught C++ and Python courses, developed 40% more advanced curriculums, and built tools to increase engagement and productivity.
+                  Building web applications and APIs for various clients. 
+                  Specializing in React, Node.js, and cloud deployment solutions.
                 </p>
               </div>
             </div>
@@ -160,13 +155,13 @@ export default function About() {
             className="mt-16 text-center"
           >
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Let’s build something great together or chat about tech!
+              Interested in working together or learning more about my work?
             </p>
             <a
-              href="mailto:soetomowilson@gmail.com"
+              href="mailto:wilson.soetomo@example.com"
               className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200"
             >
-              Contact Me
+              Get In Touch
             </a>
           </motion.div>
         </div>

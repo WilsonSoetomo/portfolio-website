@@ -35,7 +35,7 @@ export default function Resume() {
               Opening Resume...
             </h1>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
-              Your resume should open in a new tab. If it doesn't, 
+              Your resume should open in a new tab. If it doesn&apos;t, 
               <button 
                 onClick={openResumeInNewWindow}
                 className="text-blue-600 dark:text-blue-400 hover:underline ml-1"

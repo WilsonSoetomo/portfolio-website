@@ -46,7 +46,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6"
             >
-              Hi, I'm Wilson Soetomo 👋
+              Hi, I&apos;m Wilson Soetomo 👋
             </motion.h1>
 
             <motion.p
@@ -64,7 +64,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed"
             >
-              I'm passionate about building scalable applications and working with modern technologies. 
+              I&apos;m passionate about building scalable applications and working with modern technologies. 
               Currently interning at IBM, I specialize in full-stack development with expertise in 
               DuckDB, Kubernetes, Python/Flask, and cloud-native solutions.
             </motion.p>

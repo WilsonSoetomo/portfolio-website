@@ -113,7 +113,7 @@ export default function Projects() {
               Interested in working together?
             </p>
             <a
-              href="mailto:wilson.soetomo@example.com"
+              href="mailto:soetomowilson@gmail.com"
               className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200"
             >
               Get In Touch
