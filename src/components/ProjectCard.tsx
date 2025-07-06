@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { ExternalLinkIcon, GithubIcon } from 'lucide-react'
+import Image from 'next/image'
 
 interface ProjectCardProps {
   title: string
@@ -23,7 +24,13 @@ const ProjectCard = ({ title, description, tech, github, live, image }: ProjectC
       {/* Project Image */}
       {image && (
         <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-          <img src={image} alt={title} className="w-full h-full object-cover" />
+          <Image 
+            src={image} 
+            alt={title} 
+            width={400}
+            height={192}
+            className="w-full h-full object-cover"
+          />
         </div>
       )}
       
