@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -26,8 +27,15 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mb-8"
             >
-              <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-white text-3xl font-bold">
-                WS
+              <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
+                <Image
+                  src="/headshot.jpg" // Change this to your image filename
+                  alt="Wilson Soetomo"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover object-top"
+                  priority
+                />
               </div>
             </motion.div>
 
