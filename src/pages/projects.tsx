@@ -8,48 +8,32 @@ const projects = [
       description:
         "A Flask-based application that predicts stock prices using linear regression and random forests. Includes interactive dashboards built with D3.js and Matplotlib for financial forecasting.",
       tech: ["Python", "Flask", "D3.js", "Matplotlib", "Scikit-Learn"],
-      github: "https://github.com/wilsonsoetomo/stock-predictor",
-      live: "https://stock-predictor.demo.com"
+      github: "https://github.com/WilsonSoetomo/stocksim"
     },
     {
       title: "DuckDB Sidecar Exporter",
       description:
         "A Kubernetes sidecar that exports DuckDB analytics as Prometheus metrics. Built with Flask and integrated into IBM's data pipeline for cloud-native observability.",
-      tech: ["Python", "Flask", "DuckDB", "Kubernetes", "Prometheus", "Docker"],
-      github: "https://github.com/wilsonsoetomo/duckdb-exporter",
-      live: "https://duckdb-exporter.demo.com"
+      tech: ["Python", "Flask", "DuckDB", "Kubernetes", "Prometheus", "Docker"]
     },
     {
       title: "Diabetes Classifier Analysis",
       description:
         "Machine learning pipeline for diagnosing diabetes using kNN, logistic regression, and neural networks. Applied SMOTE balancing for imbalanced classes and achieved 88% accuracy.",
       tech: ["Python", "Scikit-Learn", "SMOTE", "Pandas", "Matplotlib"],
-      github: "https://github.com/wilsonsoetomo/diabetes-classifier",
-      live: "https://diabetes-analysis.demo.com"
     },
     {
       title: "Car Value API App",
       description:
         "RESTful Flask API using the CarQuery API to estimate car values based on make, model, year, and condition. Paired with a responsive React frontend supporting real-time form validation.",
       tech: ["Flask", "React", "REST API", "CarQuery API", "Bootstrap"],
-      github: "https://github.com/wilsonsoetomo/car-value-api",
-      live: "https://carvalue.demo.com"
+      github: "https://github.com/WilsonSoetomo/CarSeer"
     },
     {
       title: "NeverEnding Marketplace Integration",
       description:
         "Integrated Django backend with NeverEnding's 2D avatar marketplace. Enabled Stripe and Google Wallet payments and boosted performance by 50% through async API improvements.",
-      tech: ["Django", "Stripe", "Google Wallet", "JavaScript"],
-      github: "https://github.com/wilsonsoetomo/neverending-marketplace",
-      live: "https://neverending.demo.com"
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "Modern portfolio website built with Next.js, Tailwind, and Framer Motion. Fully responsive, deployed via Vercel, and showcases animations, dark mode, and scalable design.",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
-      github: "https://github.com/wilsonsoetomo/portfolio",
-      live: "https://wilsonsoetomo.com"
+      tech: ["Django", "Stripe", "Google Wallet", "JavaScript"]
     }
   ]  
 

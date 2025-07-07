@@ -44,19 +44,19 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
                 <p>
-                  I&apos;m a software developer currently interning at IBM, where I work on cloud-native 
-                  solutions and data engineering projects. My passion lies in building scalable, 
+                  I&apos;m a software developer currently interning at IBM, where I work on cloud-native
+                  solutions and data engineering projects. My passion lies in building scalable,
                   efficient applications that solve real-world problems.
                 </p>
                 <p>
-                  I specialize in full-stack development with a focus on modern technologies like 
-                  React, TypeScript, Python, and cloud-native tools. My experience includes working 
-                  with DuckDB for analytical workloads, Kubernetes for container orchestration, 
+                  I specialize in full-stack development with a focus on modern technologies like
+                  React, TypeScript, Python, and cloud-native tools. My experience includes working
+                  with DuckDB for analytical workloads, Kubernetes for container orchestration,
                   and building microservices architectures.
                 </p>
                 <p>
-                  When I&apos;m not coding, you can find me exploring new technologies, contributing to 
-                  open-source projects, or sharing knowledge with the developer community. I believe 
+                  When I&apos;m not coding, you can find me exploring new technologies, contributing to
+                  open-source projects, or sharing knowledge with the developer community. I believe
                   in writing clean, maintainable code and following best practices in software engineering.
                 </p>
               </div>
@@ -104,6 +104,7 @@ export default function About() {
               Experience
             </h2>
             <div className="space-y-8">
+              {/* IBM */}
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="flex justify-between items-start mb-4">
                   <div>
@@ -111,41 +112,66 @@ export default function About() {
                       Software Developer Intern
                     </h3>
                     <p className="text-blue-600 dark:text-blue-400 font-medium">
-                      IBM
+                      IBM · Lowell, MA (Hybrid)
                     </p>
                   </div>
                   <span className="text-sm text-gray-500 dark:text-gray-400">
-                    2024 - Present
+                    Jun 2025 – Sep 2025
                   </span>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Working on cloud-native solutions and data engineering projects. 
-                  Developing tools for DuckDB analytics, Kubernetes orchestration, 
-                  and building scalable microservices architectures.
-                </p>
+                <ul className="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                  <li>Developed backend services using Go and gRPC, reducing API response latency by 35%.</li>
+                  <li>Designed microservices for data auditing across 3 enterprise environments, boosting debugging efficiency by 40%.</li>
+                  <li>Built secure data pipelines compliant with GDPR and HIPAA, improving traceability of access logs by 50%.</li>
+                </ul>
               </div>
 
+              {/* NeverEnding */}
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-                      Full-Stack Developer
+                      Software Engineer Intern
                     </h3>
                     <p className="text-blue-600 dark:text-blue-400 font-medium">
-                      Freelance
+                      NeverEnding, Inc. · Remote
                     </p>
                   </div>
                   <span className="text-sm text-gray-500 dark:text-gray-400">
-                    2023 - Present
+                    Jun 2024 – Aug 2024
                   </span>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Building web applications and APIs for various clients. 
-                  Specializing in React, Node.js, and cloud deployment solutions.
-                </p>
+                <ul className="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                  <li>Integrated Django with 2D character tools and marketplace, increasing engagement by 30%.</li>
+                  <li>Led Slack-based standups and check-ins, improving team contribution by 40%.</li>
+                  <li>Optimized payment flow using Stripe and Google Wallet, boosting purchase rates by 10%.</li>
+                </ul>
+              </div>
+
+              {/* Coding Minds */}
+              <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
+                <div className="flex justify-between items-start mb-4">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                      Lead Instructor
+                    </h3>
+                    <p className="text-blue-600 dark:text-blue-400 font-medium">
+                      Coding Minds Academy · Irvine, CA
+                    </p>
+                  </div>
+                  <span className="text-sm text-gray-500 dark:text-gray-400">
+                    Mar 2023 – Jan 2024
+                  </span>
+                </div>
+                <ul className="list-disc pl-5 space-y-2 text-gray-600 dark:text-gray-300">
+                  <li>Expanded Python and C++ curricula by 40%, increasing student engagement by 16%.</li>
+                  <li>Streamlined tutor-parent communications using Slack bots, improving accountability and performance.</li>
+                  <li>Designed interactive learning strategies that boosted retention and participation by 25%.</li>
+                </ul>
               </div>
             </div>
           </motion.div>
+
 
           {/* Contact CTA */}
           <motion.div
