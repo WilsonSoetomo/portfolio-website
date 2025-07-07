@@ -28,7 +28,7 @@ export default function Home() {
             >
               <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
                 <img
-                  src="/headshot.jpg"
+                  src="/wilsonprofile.jpg"
                   alt="Wilson Soetomo"
                   className="w-full h-full object-cover object-top"
                 />
